@@ -24,7 +24,7 @@ function Carousel({ slides, type }) {
     <div className="bg-gray-800">
       <h1 className="pt-12 pb-6 pl-4 text-white text-lg font-bold">{type}</h1>
       <div
-        className={`flex transition ease-out duration-40 ml-6 py-1 gap-3 relative group xl:w-[14.12rem] xl:h-[20.93rem] xs:w-[8.12rem] xs:h-[12.12rem]`}
+        className={`flex transition ease-out duration-40 ml-6 py-1 gap-3 relative group xl:w-[14.12rem] xl:h-[20.93rem] xs:w-[8.12rem] xs:h-[20rem]`}
         style={
           isDesktopOrLaptop ? 
           {
@@ -38,15 +38,18 @@ function Carousel({ slides, type }) {
         }
       >
         {slides.map((s) => (
+          <div>
               <a key={s.id} className="" href={s.link}>
                 <img
                 src={s.img}
                 alt="img"
                 className="rounded-2xl" />
+                <h1 className="p-2 mt-1 text-blue-200 flex justify-center hover:text-white xs:text-sm xl:text-base">{s.name}</h1>
                 </a>
+            </div>
         ))}
         </div>
-        <div className="relative h-full w-full justify-between items-center flex text-white px-10 text-3xl xl:top-[-12rem] xs:top-[-6rem]">
+        <div className="relative h-full w-full justify-between items-center flex text-white px-10 text-3xl xl:top-[-12rem] xs:top-[-14rem]">
             <button onClick={previousSlide}>
                   <ChevronLeftIcon className="text-blue-400 h-8 w-8" />
                 </button>
