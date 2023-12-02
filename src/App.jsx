@@ -5,8 +5,10 @@ import './App.css'
 
 import NavBar from './components/NavBar'
 import Footer from './components/Footer';
+import Session from './components/Session';
 import Home from './pages/Home'
 import Movie from './pages/Movie'
+import AboutMovie from './components/AboutMovie';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={ <Home /> } />
         <Route path="/movie" element={ <Movie /> } />
+        <Route path="/movie/session" element={ <Session /> } />
+        <Route path="/movie/about" element={ <AboutMovie /> } />
       </Routes>
       </BrowserRouter>
       <Footer />

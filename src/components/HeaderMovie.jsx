@@ -37,7 +37,7 @@ function HeaderMovie() {
               </div>
         </div>
           </div>
-        <div className="relative ml-[32px] top-[-200px] h-[19.62rem] w-[13.37rem]">
+        <div className="relative ml-[32px] top-[-200px] h-[10.62rem] w-[13.37rem]">
           <img src="https://ingresso-a.akamaihd.net/prd/img/movie/napoleao/8001cda0-e5ea-475c-9434-777232fe9245.webp" alt="" />
         </div>
         </div>
