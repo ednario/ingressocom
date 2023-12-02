@@ -5,7 +5,7 @@ function NavBar() {
     <>
       <nav className="bg-blue-600 border-gray-200">
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-              <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+              <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                   <img src="https://ingresso-a.akamaihd.net/catalog/img/ingresso-logo-v1-desktop-final.svg" className="h-8" alt="Logo" />
               </a>
               <div className="flex items-center space-x-6 rtl:space-x-reverse">
@@ -28,16 +28,16 @@ function NavBar() {
               <div className="flex items-center">
                   <ul className="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
                       <li>
-                          <a href="#" className="text-blue-200 hover:text-white xs:text-sm xl:text-lg" alt="Filmes">Filmes</a>
+                          <a href="/" className="text-blue-200 hover:text-white xs:text-sm xl:text-lg" alt="Filmes">Filmes</a>
                       </li>
                       <li>
-                          <a href="#" className="text-blue-200 hover:text-white xs:text-sm xl:text-lg" alt="Cinemas">Cinemas</a>
+                          <a href="/" className="text-blue-200 hover:text-white xs:text-sm xl:text-lg" alt="Cinemas">Cinemas</a>
                       </li>
                       <li>
-                          <a href="#" className="text-blue-200 hover:text-white xs:text-sm xl:text-lg" alt="Notícias">Notícias</a>
+                          <a href="/" className="text-blue-200 hover:text-white xs:text-sm xl:text-lg" alt="Notícias">Notícias</a>
                       </li>
                       <li>
-                          <a href="#" className="text-blue-200 hover:text-white xs:text-sm xl:text-lg" alt="Fanshop">Fanshop</a>
+                          <a href="/" className="text-blue-200 hover:text-white xs:text-sm xl:text-lg" alt="Fanshop">Fanshop</a>
                       </li>
                   </ul>
               </div>

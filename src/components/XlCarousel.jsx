@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
+import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid'
+
 
 function XlCarousel({ slides }) {
 
@@ -18,16 +19,16 @@ function XlCarousel({ slides }) {
   };
 
   return (
-    <div className='w-full relative group bg-gray-800 xl:w-[84.5rem] xl:h-[23.75rem] sm:w-[46.5rem] xs:w-[31rem] xs:h-[15.62rem]'>
-      <div
+    <div className='w-full relative group bg-[#333333] xl:w-[84.5rem] xl:h-[23.75rem] sm:w-[46.5rem] xs:w-[31rem] xs:h-[15.62rem]'>
+      <a href="/movie"><div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full bg-center bg-cover duration-500'
-      ></div>
+      ></div></a>
       <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        <BsChevronCompactLeft onClick={prevSlide} size={30} />
+        <ChevronLeftIcon onClick={prevSlide} className='className="border-2 rounded-3xl border-gray-300 text-gray-300 h-8 w-8 hover:border-gray-200 hover:text-gray-200' />
       </div>
       <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        <BsChevronCompactRight onClick={nextSlide} size={30} />
+        <ChevronRightIcon onClick={nextSlide} className='className="border-2 rounded-3xl border-gray-300 text-gray-300 h-8 w-8 hover:border-gray-200 hover:text-gray-200' />
       </div>
     </div>
   );

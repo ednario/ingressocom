@@ -21,10 +21,10 @@ function Carousel({ slides, type }) {
   });
 
   return (
-    <div className="bg-gray-800">
+    <div className="bg-[#333333]">
       <h1 className="pt-12 pb-6 pl-4 text-white text-lg font-bold">{type}</h1>
       <div
-        className={`flex transition ease-out duration-40 ml-6 py-1 gap-3 relative group xl:w-[14.12rem] xl:h-[20.93rem] xs:w-[8.12rem] xs:h-[20rem]`}
+        className={`flex transition ease-out duration-40 ml-6 py-1 gap-3 relative group xl:w-[14.12rem] xl:h-[20.93rem] xs:w-[8.12rem] xs:h-[15rem]`}
         style={
           isDesktopOrLaptop ? 
           {
@@ -44,17 +44,17 @@ function Carousel({ slides, type }) {
                 src={s.img}
                 alt="img"
                 className="rounded-2xl" />
-                <h1 className="p-2 mt-1 text-blue-200 flex justify-center hover:text-white xs:text-sm xl:text-base">{s.name}</h1>
+                <h1 className="p-2 mt-1 text-[#CCCCCC] flex justify-center hover:text-white xs:text-sm xl:text-base">{s.name}</h1>
                 </a>
             </div>
         ))}
         </div>
-        <div className="relative h-full w-full justify-between items-center flex text-white px-10 text-3xl xl:top-[-12rem] xs:top-[-14rem]">
+        <div className="relative h-full w-full justify-between items-center flex text-white px-10 text-3xl xl:top-[-12rem] xs:top-[-9rem]">
             <button onClick={previousSlide}>
-                  <ChevronLeftIcon className="text-blue-400 h-8 w-8" />
+                  <ChevronLeftIcon className="border-2 rounded-3xl border-blue-400 text-blue-400 h-8 w-8 hover:border-blue-300 hover:text-blue-300" />
                 </button>
                 <button onClick={nextSlide}>
-                  <ChevronRightIcon className="text-blue-400 h-8 w-8" />
+                  <ChevronRightIcon className="border-2 rounded-3xl border-blue-400 text-blue-400 h-8 w-8 hover:border-blue-300 hover:text-blue-300" />
                 </button>
               </div>
     </div>
