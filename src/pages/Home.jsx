@@ -1,10 +1,11 @@
 // import NavBar from '../components/NavBar'
 import XlCarousel from '../components/XlCarousel'
 import Carousel from '../components/Carousel'
+import MDCarousel from '../components/MDCarousel';
 
 import { slidesXlCarousel } from '../data/slidesXLCarousel';
 import { slidesEmAlta, typeEmAlta } from "../data/slidesEmAlta"
-import { slidesNoticias, typeNoticias } from '../data/slidesNoticias';
+import { slidesEmCartaz, typeEmCartaz } from '../data/slidesEmCartaz';
 
 function Home() {
   
@@ -13,7 +14,7 @@ function Home() {
      {/* <NavBar /> */}
      <XlCarousel slides={slidesXlCarousel} />
      <Carousel slides={slidesEmAlta} type={typeEmAlta} />
-     <Carousel slides={slidesNoticias} type={typeNoticias} />
+     <MDCarousel slides={slidesEmCartaz} type={typeEmCartaz} />
      {/* <Footer /> */}
     </div>
   )

@@ -22,7 +22,7 @@ function Carousel({ slides, type }) {
 
   return (
     <div className="bg-[#333333]">
-      <h1 className="pt-12 pb-6 pl-4 text-white text-lg font-bold">{type}</h1>
+      <h1 className="pt-12 pb-6 pl-4 ml-2 text-white text-lg font-bold">{type}</h1>
       <div
         className={`flex transition ease-out duration-40 ml-6 py-1 gap-3 relative group xl:w-[14.12rem] xl:h-[20.93rem] xs:w-[8.12rem] xs:h-[15rem]`}
         style={
@@ -43,7 +43,7 @@ function Carousel({ slides, type }) {
                 <img
                 src={s.img}
                 alt="img"
-                className="rounded-2xl" />
+                className="rounded-2xl box-border object-cover duration-[0.5s] hover:scale-110" />
                 <h1 className="p-2 mt-1 text-[#CCCCCC] flex justify-center hover:text-white xs:text-sm xl:text-base">{s.name}</h1>
                 </a>
             </div>

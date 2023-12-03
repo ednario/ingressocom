@@ -4,7 +4,7 @@ import MDCarousel from "./MDCarousel"
 import Days from '../components/Days'
 import TimetableCards from "./TimetableCards"
 
-import { slidesEmAlta, typeEmAlta } from "../data/slidesEmAlta"
+import { slidesEmCartaz, typeEmCartaz } from "../data/slidesEmCartaz"
 import DubbingButtons from "./DubbingButtons"
 
 function Session() {
@@ -29,7 +29,7 @@ function Session() {
         <TimetableCards name={"Napoleão"} type={"Dublado"} local={"Av. Padre Cicero, 2555 | Triângulo"} time={"20:10"} />
         <TimetableCards name={"Napoleão"} type={"Legendado"} local={"Av. Padre Cicero, 2555 | Triângulo"} time={"18:30"} />
         {/* Carousel */}
-        <MDCarousel slides={slidesEmAlta} type={typeEmAlta} />
+        <MDCarousel slides={slidesEmCartaz} type={typeEmCartaz} />
       </div>
     </>
   )
