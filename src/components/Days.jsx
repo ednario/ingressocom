@@ -2,7 +2,7 @@ function Days() {
   return (
     <>
     {/* Dias */}
-    <div className="bg-[#252525] flex justify-center ml-[13rem] w-[58.5rem] mt-3 gap-16 p-2 text-[#0099FF] font-bold rounded-md">
+    <div className="bg-[#252525] flex justify-center lg:ml-[13rem] xs:ml-8 lg:w-[58.5rem] xs:w-[26rem] mt-3 lg:gap-16 xs:gap-6 p-2 text-[#0099FF] font-bold rounded-md">
           <button className="border-b-[#F58220] text-[#F58220]">
             <h1 className="text-lg ">02/12</h1>
             <h2>Hoje</h2>

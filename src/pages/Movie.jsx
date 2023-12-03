@@ -3,10 +3,10 @@ import Session from "../components/Session"
 
 function Movie() {
   return (
-    <>
+    <div className='overflow-hidden'>
     <HeaderMovie />
     <Session />
-    </>
+    </div>
   )
 }
 

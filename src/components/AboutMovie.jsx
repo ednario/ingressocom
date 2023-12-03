@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
 
 import HeaderMovie from "./HeaderMovie"
-import Carousel from "./Carousel"
+import MDCarousel from "./MDCarousel"
 
 import { slidesEmAlta, typeEmAlta } from "../data/slidesEmAlta"
 
@@ -11,15 +11,15 @@ function AboutMovie() {
     <HeaderMovie />
       {/* Sessões / Sobre o filme */}
       <div className="bg-[#333333] flex justify-between">
-          <div className="flex justify-center ml-[13rem] w-[45rem] border-b-2 border-b-[#979797] text-[#0099FF] active:border-b-[#F58220] active:text-[#F58220]">
+          <div className="flex justify-center lg:ml-[13rem] lg:w-[45rem] xs:ml-4 xs:w-full border-b-2 border-b-[#979797] text-[#0099FF] active:border-b-[#F58220] active:text-[#F58220]">
             <NavLink to="/movie" className="pb-6 text-base font-semibold">Sessões</NavLink>
           </div>
-          <div className="flex justify-center mr-[13rem] w-[45rem] border-b-4 border-b-[#F58220] text-[#F58220]">
+          <div className="flex justify-center lg:mr-[13rem] lg:w-[45rem] xs:mr-4 xs:w-full border-b-4 border-b-[#F58220] text-[#F58220]">
             <NavLink to="/movie/about" className="pb-6 text-base font-semibold">Sobre o filme</NavLink>
           </div>
       </div>
       <div className="bg-[#333333] pt-4">
-        <div className="ml-[13rem] mr-[13rem]">
+        <div className="lg:ml-[13rem] lg:mr-[13rem] xs:ml-4 xs:mr-4">
           <h1 className="text-gray-100 text-base font-bold mb-2">Sobre o Filme</h1>
           <div className="flex gap-4 uppercase">
             <span className="border-2 border-[#F58220] rounded-md pl-2 pr-2 text-[#F58220] text-sm">Ação</span>
@@ -54,12 +54,12 @@ function AboutMovie() {
             </div>
             <div>
               <h1 className="text-gray-100 text-base font-bold">País de Origem</h1>
-              <img src="/icons/EUA.png" alt="" className="h-8 w-8" />
+              <img src="/icons/EUA.png" alt="" className="lg:h-8 lg:w-8 xs:h6 xs:w-6" />
             </div>
           </div>
         </div>
       </div>
-      <Carousel slides={slidesEmAlta} type={typeEmAlta} />
+      <MDCarousel slides={slidesEmAlta} type={typeEmAlta} />
     </>
   )
 }

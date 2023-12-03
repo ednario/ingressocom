@@ -3,10 +3,10 @@ import { PlusIcon } from '@heroicons/react/24/outline'
 function TimetableCards({ name, type, local, time }) {
   return (
     <>
-      <div className="bg-[#252525] ml-[13rem] w-[58.5rem] mt-[3.65rem] rounded-md">
-          <div className="flex justify-between items-center ml-4 mr-4 w-[57.5rem] pb-4 border-b-[1px] border-[#979797]">
+      <div className="bg-[#252525] lg:ml-[13rem] xs:ml-8 xs:mr-8 lg:w-[58.5rem] xs:w-[26rem] lg:mt-[3.65rem] xs:mt-6 rounded-md">
+          <div className="flex justify-between items-center lg:ml-4 lg:mr-4 lg:w-[57.5rem] xs:w-[26rem] pb-4 border-b-[1px] border-[#979797]">
             <img src="icons/Heart.svg" className="ml-7 h-6 w-6 text-[#0099FF]" />
-            <div className="ml-[-31rem]">
+            <div className="lg:ml-[-31rem] xs:ml-4">
               <h1 className="text-[#0099FF] mx-0 mb-0 mt-4">{ name } - { type }</h1>
               <p className="w-full flex-shrink-0 text-sm text-[#979797]">{ local }</p>
             </div>
