@@ -68,7 +68,7 @@ function Carousel({ slides, type }) {
                 <img
                 src={s.img}
                 alt={s.name}
-                className="rounded-2xl mb-2 box-border object-cover duration-[0.5s] hover:scale-110" />
+                className="rounded-2xl mb-1 box-border object-cover duration-[0.5s] hover:scale-110" />
                 <h1 className="p-2 mt-1 text-[#CCCCCC] flex justify-center hover:text-white xs:text-sm xl:text-base">{s.name}</h1>
                 </a>
             </div>
