@@ -30,25 +30,25 @@ export let slidesEmCartaz = [
     img:"https://ingresso-a.akamaihd.net/prd/img/movie/trolls-3-juntos-novamente/2f3a4169-b3c2-4f64-93c7-7a621b2957c0.webp"
   },
   {
-    id: 5,
+    id: 6,
     name: "Casamento Grego 3",
     link: "https://www.ingresso.com/filme/casamento-grego-3?partnership=home",
     img:"https://ingresso-a.akamaihd.net/prd/img/movie/casamento-grego-3/9420701d-7c11-42fb-a278-f033ce0027d1.webp"
   },
   {
-    id: 6,
+    id: 7,
     name: "Patrulha Canina: Um Filme Superpoderoso",
     link: "https://www.ingresso.com/filme/patrulha-canina-um-filme-superpoderoso?partnership=home",
     img:"https://ingresso-a.akamaihd.net/prd/img/movie/patrulha-canina-um-filme-superpoderoso/d8cb92e8-927b-40a7-ab66-6add320ee69c.webp"
   },
   {
-    id: 7,
+    id: 8,
     name: "A Força Da Amizade",
     link: "https://www.ingresso.com/filme/a-forca-da-amizade-um-caminho-com-padre-pio?partnership=home",
     img:"https://ingresso-a.akamaihd.net/prd/img/movie/a-forca-da-amizade/5ca620ca-dfb0-4934-8fff-ebf1da78a8ae.jpg"
   },
   {
-    id: 8,
+    id: 9,
     name: "Não tem volta",
     link: "https://www.ingresso.com/filme/nao-tem-volta?partnership=home",
     img:"https://ingresso-a.akamaihd.net/prd/img/movie/nao-tem-volta/d703a763-0c53-437e-ac6e-85d93ca0cfba.webp"
