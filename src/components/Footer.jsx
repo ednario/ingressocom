@@ -23,22 +23,22 @@ function Footer() {
                         <h2 className="mb-4 mt-4 text-sm font-semibold uppercase text-white">Institucional</h2>
                         <ul className="text-[#0193F5] text-sm">
                             <li className="mb-1">
-                                <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Quem Somos</a>
+                                <a href="https://www.ingresso.com/institucional" className="hover:underline ">Quem Somos</a>
                             </li>
                             <li className="mb-1">
-                                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Assessoria de Imprensa</a>
+                                <a href="https://www.ingresso.com/institucional/assessoria-imprensa" className="hover:underline">Assessoria de Imprensa</a>
                             </li>
                             <li className="mb-1">
-                                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Vale-Presente Corporativo</a>
+                                <a href="https://b2b.ingresso.com/?_ga=2.69743568.1190183508.1701438963-1190197898.1700694450" className="hover:underline">Vale-Presente Corporativo</a>
                             </li>
                             <li className="mb-1">
-                                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Ingresso.com atende</a>
+                                <a href="https://www.ingresso.com/institucional/ingresso-atende" className="hover:underline">Ingresso.com atende</a>
                             </li>
                             <li className="mb-1">
                                 <a href="https://www.movieid.com" className="hover:underline">movieID.com</a>
                             </li>
                             <li className="mb-1">
-                                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Faça parte do time</a>
+                                <a href="https://uol.gupy.io/" className="hover:underline">Faça parte do time</a>
                             </li>
                         </ul>
                     </div>
