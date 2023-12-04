@@ -2,7 +2,7 @@ export let slidesEmCartaz = [
   {
     id: 1,
     name: "Napoleão",
-    link: "https://www.ingresso.com/filme/napoleao?partnership=home",
+    link: "/movie",
     img:"https://ingresso-a.akamaihd.net/prd/img/movie/napoleao/8001cda0-e5ea-475c-9434-777232fe9245.webp"
   },
   {
